@@ -1,0 +1,331 @@
+
+/*style*/
+.container_beer{
+	display: flex;
+	flex-direction: column;
+}
+.top{
+	background:url("../../assets/images/BG.png") no-repeat;
+	position:relative;
+}
+.top .background_top{
+	width: 100vw;
+}
+.top .logo_beer{
+	position: absolute;
+	width:100%;
+	max-width: 10vw;
+	top:5vw;
+	left: 45%;
+}
+.top .text_top{
+	text-transform: uppercase;
+	width: 100vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 2vw;
+	font-family: "CinzelDecorative";
+	color: rgb(255, 255, 255);
+	line-height: 1.15;
+	position: absolute;
+	top: 21vw;
+	z-index: 15;
+}
+.top .text_top .text_beer{
+	font-style:bold;
+	font-size: 3.25vw;
+}
+.top .text_center{
+  font-size: 1.75vw;
+  width: 100vw;
+  text-align: center;
+  font-family: "Amiri";
+  color: rgb(205, 179, 120);
+  line-height: 1.25;
+  position: absolute;
+  top: 27.5vw;
+  z-index: 15;
+}
+.top .text_bottom{
+	width: 100vw;
+	text-align: center;
+	font-size: 1.25vw;
+	font-family: "Amiri";
+	color: rgb(205, 179, 120);
+	line-height: 1.872;
+	-moz-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	-webkit-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	-ms-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	position: absolute;
+	top: 47vw;
+	z-index: 18;
+}
+.top .img_arrow{
+	width:1.5vw;
+	position: absolute;
+	left: 49vw;
+	top: 49.2vw;
+	z-index: 18;
+}
+.top .bar_left{
+	background-color: rgb(205, 179, 120);
+	position: absolute;
+	left: 27.5%;
+    top: 1.75vw;
+	width: 17.7%;
+    height: 4%;
+	z-index: 20;
+}
+.top .bar_right{
+	background-color: rgb(205, 179, 120);
+	position: absolute;
+	left: 54.5%;
+    top: 1.75vw;
+	width: 17.7%;
+    height: 4%;
+	z-index: 19;
+}
+.body{
+	position:relative;
+}
+.body  .background_body{
+	width: 100vw;
+}
+.body .text_top{
+	width: 100vw;
+}
+.body .text_top h1{
+  font-size: 3.5vw;
+  width: 50vw;
+  text-transform: uppercase;
+  font-family: "CinzelDecorative";
+  color: rgb(255, 255, 255);
+  line-height: 0.833;
+  text-align: center;
+  position: absolute;
+  top:-3vw;
+  z-index: 28;
+}
+.body .text_top p{
+	width: 60vw;
+	font-size: 1.3vw;
+	font-family: "Amiri";
+	color: rgb(205, 179, 120);
+	line-height: 2.2;
+	-moz-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	-webkit-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	-ms-transform: matrix( 1.00162920280061,0,0,0.99851411589896,0,0);
+	position: absolute;
+	left: 7vw;
+	top:2vw;
+	z-index: 29;
+}
+.body .text_top img{
+	width: 25vw;
+	position: absolute;
+	top: -3%;
+	right:0;
+}
+.body .text_center_top{
+	position: absolute;
+	top: 7vw;
+	width: 90vw;
+}
+.body .text_center_top h1{
+	width:50vw;
+	font-size: 4vw;
+	font-family: "CinzelDecorative";
+	color: rgb(205, 179, 120);
+	line-height: 0.833;
+	text-align: center;
+	position: absolute;
+	top: 3.5vw;
+	z-index: 49;
+}
+.body .text_center_top p{
+	font-size: 1.3vw;
+	font-family: "Myriad Pro";
+	color: rgb(180, 186, 152);
+	line-height: 2;
+	position: absolute;
+	left: 6.5vw;
+	top: 10vw;
+	width: 58vw;
+	z-index: 48;
+}
+.body .text_center_top .img_left_top{
+	width:95vw;
+	position: absolute;
+	left:0;
+	top: -5.75vw;
+	z-index: 42;
+}
+.body .text_center_top .img_right_top{
+	width:20vw;
+	position: absolute;
+	right:5vw;
+	top: -11vw;
+	z-index: 47;
+}
+.body .text_center_top .btn_check{
+  font-family: "Amiri";
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(64, 68, 41);
+  background-color: rgb(26, 25, 14);
+  position: absolute;
+  left: 6.5vw;
+  top: 18vw;
+  width: 15vw;
+  height: 4vw;
+  z-index: 52;
+}
+.body .text_center_bottom {
+	
+}
+.body .text_center_bottom img {
+	width:100vw;
+	position:absolute;
+	top: 33.75vw;
+}
+.body .text_center_bottom h1 {
+	text-transform: uppercase;
+	width: 30vw;
+	font-size: 3.5vw;
+	font-family: "CinzelDecorative";
+	color: rgb(26, 28, 15);
+	line-height: 1.2;
+	position:absolute;
+	top: 47vw;
+	right:5vw;
+	z-index: 34;
+}
+
+.body .text_center_end {
+	
+}
+.body .text_center_end img {
+  width: 50vw;
+  position: absolute;
+  top:72vw;
+  right:0vw;
+  z-index: 61;
+}
+
+.body .text_center_end h1 {
+	width:30vw;
+	font-size: 3.5vw;
+	font-family: "CinzelDecorative";
+	color: rgb(205, 179, 120);
+	line-height: 1.2;
+	text-align: left;
+	position: absolute;
+	left: 8vw;
+	top: 82vw;
+	z-index: 56;
+}
+
+.body .text_center_end p {
+	width:35vw;
+	font-size: 1.5vw;
+	font-family: "Myriad Pro";
+	color: rgb(180, 186, 152);
+	line-height: 2;
+	position: absolute;
+	left: 8vw;
+	top: 95vw;
+	z-index: 57;
+}
+
+.body  .text_bottom h1{
+	width: 100vw;
+	font-size: 4vw;
+	font-family: "CinzelDecorative";
+	color: rgb(205, 179, 120);
+	text-align: center;
+	position: absolute;
+	top: 133vw;
+	text-transform: uppercase;
+	z-index: 4;
+}
+
+.body .text_bottom p{
+	width: 100vw;
+	font-family: "Amiri";
+	font-size: 1.5vw;
+	color: rgb(180, 186, 152);
+	text-align: center;
+	position: absolute;
+	top: 140vw;
+	z-index: 3;
+}
+.body .btn_order{
+  font-family: "Amiri";
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(64, 68, 41);
+  background-color: rgb(26, 25, 14);
+  position: absolute;
+  left: 40vw;
+  top: 144.5vw;
+  width: 15vw;
+  height: 4vw;
+  z-index: 5;
+}
+
+@media screen and (max-width: 480px){
+	.body .text_top h1{
+		font-size: 3.5vw;
+		top: -7vw;
+	}
+	.body .text_top p{
+		font-size: 2.3vw;
+		top: 3vw;
+	}
+	.body .text_center_top h1{
+		font-size: 4vw;
+		top: -0.5vw;
+	}
+	.body .text_center_top p{
+		font-size: 2.3vw;
+		top: 10vw;
+	}
+	.body .text_center_top h1{
+		font-size: 4vw;
+		top: -1.5vw;
+	}
+	.body .text_center_top p{
+		font-size: 1.2vw;
+		top: 10vw;
+	}
+	.body .text_center_top .btn_check{
+	  font-size: 1.5vw;
+	  top: 18vw;
+	}
+	.body .text_center_end p {
+	width:35vw;
+	font-size: 1.5vw;
+	font-family: "Myriad Pro";
+	color: rgb(180, 186, 152);
+	line-height: 2;
+	position: absolute;
+	left: 8vw;
+	top: 98vw;
+	z-index: 57;
+}
+	.body  .text_bottom h1{
+		font-size: 3.5vw;
+		top:129.5vw
+	}
+	.body  .text_bottom p{
+		font-size: 2.3vw;
+	}
+}
+
+
+
